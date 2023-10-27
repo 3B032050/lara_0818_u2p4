@@ -8,17 +8,13 @@ use Illuminate\Routing\Controller as BaseController;
 
 class PostController extends Controller
 {
-    public function post()
-    {
-        return view('post');
-    }
     public function index()
     {
         return view('index');
     }
     public function show()
     {
-        return view('show');
+        return view('post');
     }
     public function contact()
     {
